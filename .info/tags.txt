@@ -1,0 +1,12 @@
+ANSI
+blinking-text
+italic-text
+bold-text
+underlined-text
+strikethrough-text
+reversed-color-text
+hyperlinked-text
+true-color
+RGB
+HSL
+pwshrc
