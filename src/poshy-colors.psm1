@@ -10,6 +10,8 @@ function bgBlack {
     )
     return @($PSStyle.Background.Black) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBlack
+
 function bgBrightBlack {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -17,6 +19,8 @@ function bgBrightBlack {
     )
     return @($PSStyle.Background.BrightBlack) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBrightBlack
+
 function bgWhite {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -24,6 +28,8 @@ function bgWhite {
     )
     return @($PSStyle.Background.White) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgWhite
+
 function bgBrightWhite {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -31,6 +37,8 @@ function bgBrightWhite {
     )
     return @($PSStyle.Background.BrightWhite) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBrightWhite
+
 function bgRed {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -38,6 +46,8 @@ function bgRed {
     )
     return @($PSStyle.Background.Red) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgRed
+
 function bgBrightRed {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -45,6 +55,8 @@ function bgBrightRed {
     )
     return @($PSStyle.Background.BrightRed) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBrightRed
+
 function bgMagenta {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -52,6 +64,8 @@ function bgMagenta {
     )
     return @($PSStyle.Background.Magenta) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgMagenta
+
 function bgBrightMagenta {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -59,6 +73,8 @@ function bgBrightMagenta {
     )
     return @($PSStyle.Background.BrightMagenta) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBrightMagenta
+
 function bgBlue {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -66,6 +82,8 @@ function bgBlue {
     )
     return @($PSStyle.Background.Blue) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBlue
+
 function bgBrightBlue {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -73,6 +91,8 @@ function bgBrightBlue {
     )
     return @($PSStyle.Background.BrightBlue) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBrightBlue
+
 function bgCyan {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -80,6 +100,8 @@ function bgCyan {
     )
     return @($PSStyle.Background.Cyan) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgCyan
+
 function bgBrightCyan {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -87,6 +109,8 @@ function bgBrightCyan {
     )
     return @($PSStyle.Background.BrightCyan) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBrightCyan
+
 function bgGreen {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -94,6 +118,8 @@ function bgGreen {
     )
     return @($PSStyle.Background.Green) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgGreen
+
 function bgBrightGreen {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -101,6 +127,8 @@ function bgBrightGreen {
     )
     return @($PSStyle.Background.BrightGreen) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBrightGreen
+
 function bgYellow {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -108,6 +136,8 @@ function bgYellow {
     )
     return @($PSStyle.Background.Yellow) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgYellow
+
 function bgBrightYellow {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -115,6 +145,7 @@ function bgBrightYellow {
     )
     return @($PSStyle.Background.BrightYellow) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgBrightYellow
 
 function fgBlack {
     param(
@@ -123,6 +154,8 @@ function fgBlack {
     )
     return @($PSStyle.Foreground.Black) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBlack
+
 function fgBrightBlack {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -130,6 +163,8 @@ function fgBrightBlack {
     )
     return @($PSStyle.Foreground.BrightBlack) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBrightBlack
+
 function fgWhite {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -137,6 +172,8 @@ function fgWhite {
     )
     return @($PSStyle.Foreground.White) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgWhite
+
 function fgBrightWhite {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -144,6 +181,8 @@ function fgBrightWhite {
     )
     return @($PSStyle.Foreground.BrightWhite) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBrightWhite
+
 function fgRed {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -151,6 +190,8 @@ function fgRed {
     )
     return @($PSStyle.Foreground.Red) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgRed
+
 function fgBrightRed {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -158,6 +199,8 @@ function fgBrightRed {
     )
     return @($PSStyle.Foreground.BrightRed) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBrightRed
+
 function fgMagenta {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -165,6 +208,8 @@ function fgMagenta {
     )
     return @($PSStyle.Foreground.Magenta) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgMagenta
+
 function fgBrightMagenta {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -172,6 +217,8 @@ function fgBrightMagenta {
     )
     return @($PSStyle.Foreground.BrightMagenta) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBrightMagenta
+
 function fgBlue {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -179,6 +226,8 @@ function fgBlue {
     )
     return @($PSStyle.Foreground.Blue) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBlue
+
 function fgBrightBlue {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -186,6 +235,8 @@ function fgBrightBlue {
     )
     return @($PSStyle.Foreground.BrightBlue) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBrightBlue
+
 function fgCyan {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -193,6 +244,8 @@ function fgCyan {
     )
     return @($PSStyle.Foreground.Cyan) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgCyan
+
 function fgBrightCyan {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -200,6 +253,8 @@ function fgBrightCyan {
     )
     return @($PSStyle.Foreground.BrightCyan) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBrightCyan
+
 function fgGreen {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -207,6 +262,8 @@ function fgGreen {
     )
     return @($PSStyle.Foreground.Green) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgGreen
+
 function fgBrightGreen {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -214,6 +271,8 @@ function fgBrightGreen {
     )
     return @($PSStyle.Foreground.BrightGreen) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBrightGreen
+
 function fgYellow {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -221,6 +280,8 @@ function fgYellow {
     )
     return @($PSStyle.Foreground.Yellow) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgYellow
+
 function fgBrightYellow {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -228,6 +289,8 @@ function fgBrightYellow {
     )
     return @($PSStyle.Foreground.BrightYellow) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgBrightYellow
+
 function fmtReset {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -235,6 +298,8 @@ function fmtReset {
     )
     return @($PSStyle.Reset) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtReset
+
 function fmtBlink {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -242,6 +307,8 @@ function fmtBlink {
     )
     return @($PSStyle.Blink) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtBlink
+
 function fmtBlinkOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -249,6 +316,8 @@ function fmtBlinkOff {
     )
     return @($PSStyle.BlinkOff) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtBlinkOff
+
 function fmtBold {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -256,6 +325,8 @@ function fmtBold {
     )
     return @($PSStyle.Bold) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtBold
+
 function fmtBoldOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -263,6 +334,8 @@ function fmtBoldOff {
     )
     return @($PSStyle.BoldOff) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtBoldOff
+
 function fmtHidden {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -270,6 +343,8 @@ function fmtHidden {
     )
     return @($PSStyle.Hidden) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtHidden
+
 function fmtHiddenOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -277,6 +352,8 @@ function fmtHiddenOff {
     )
     return @($PSStyle.HiddenOff) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtHiddenOff
+
 function fmtReverse {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -284,6 +361,8 @@ function fmtReverse {
     )
     return @($PSStyle.Reverse) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtReverse
+
 function fmtReverseOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -291,6 +370,8 @@ function fmtReverseOff {
     )
     return @($PSStyle.ReverseOff) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtReverseOff
+
 function fmtItalic {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -298,6 +379,8 @@ function fmtItalic {
     )
     return @($PSStyle.Italic) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtItalic
+
 function fmtItalicOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -305,6 +388,8 @@ function fmtItalicOff {
     )
     return @($PSStyle.ItalicOff) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtItalicOff
+
 function fmtUnderline {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -312,6 +397,8 @@ function fmtUnderline {
     )
     return @($PSStyle.Underline) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtUnderline
+
 function fmtUnderlineOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -319,6 +406,8 @@ function fmtUnderlineOff {
     )
     return @($PSStyle.UnderlineOff) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtUnderlineOff
+
 function fmtStrikethrough {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -326,6 +415,8 @@ function fmtStrikethrough {
     )
     return @($PSStyle.Strikethrough) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtStrikethrough
+
 function fmtStrikethroughOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -333,6 +424,8 @@ function fmtStrikethroughOff {
     )
     return @($PSStyle.StrikethroughOff) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtStrikethroughOff
+
 function fgRGB {
     param(
         [Parameter(Mandatory = $true, Position = 0, ParameterSetName = "ComponentsSplit")]
@@ -359,6 +452,8 @@ function fgRGB {
     }
     return @($PSStyle.Foreground.FromRgb($r, $g, $b)) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgRGB
+
 function bgRGB {
     param(
         [Parameter(Mandatory = $true, Position = 0, ParameterSetName = "ComponentsSplit")]
@@ -385,6 +480,8 @@ function bgRGB {
     }
     return @($PSStyle.Background.FromRgb($r, $g, $b)) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgRGB
+
 function fgColor {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -396,6 +493,8 @@ function fgColor {
     )
     return @(& "fg$color" @rest) + @($rest) -join ''
 }
+Export-ModuleMember -Function fgColor
+
 function bgColor {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -407,6 +506,8 @@ function bgColor {
     )
     return @(& "bg$color") + @($rest) -join ''
 }
+Export-ModuleMember -Function bgColor
+
 function fmtHyperlink {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -420,6 +521,8 @@ function fmtHyperlink {
     )
     return @($PSStyle.FormatHyperlink($text, $url)) + @($rest) -join ''
 }
+Export-ModuleMember -Function fmtHyperlink
+
 function ConvertTo-RGB {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -505,6 +608,8 @@ function ConvertTo-RGB {
         }
     }
 }
+Export-ModuleMember -Function ConvertTo-RGB
+
 function bgHSL {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -524,6 +629,8 @@ function bgHSL {
     )
     return @(bgRGB (ConvertTo-RGB -HSL $h $s $l -AsBytes)) + @($rest) -join ''
 }
+Export-ModuleMember -Function bgHSL
+
 function fgHSL {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -543,6 +650,4 @@ function fgHSL {
     )
     return @(fgRGB (ConvertTo-RGB -HSL $h $s $l -AsBytes)) + @($rest) -join ''
 }
-
-
-Export-ModuleMember -Function *
+Export-ModuleMember -Function fgHSL
