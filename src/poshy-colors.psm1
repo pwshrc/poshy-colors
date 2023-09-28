@@ -3,6 +3,12 @@ $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to black, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBlack "Hello, world!"
+#>
 function bgBlack {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -12,6 +18,12 @@ function bgBlack {
 }
 Export-ModuleMember -Function bgBlack
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to bright black, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBrightBlack "Hello, world!"
+#>
 function bgBrightBlack {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -21,6 +33,12 @@ function bgBrightBlack {
 }
 Export-ModuleMember -Function bgBrightBlack
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to white, followed by any arguments passed to the function.
+.EXAMPLE
+    bgWhite "Hello, world!"
+#>
 function bgWhite {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -30,6 +48,12 @@ function bgWhite {
 }
 Export-ModuleMember -Function bgWhite
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to bright white, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBrightWhite "Hello, world!"
+#>
 function bgBrightWhite {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -39,6 +63,12 @@ function bgBrightWhite {
 }
 Export-ModuleMember -Function bgBrightWhite
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to red, followed by any arguments passed to the function.
+.EXAMPLE
+    bgRed "Hello, world!"
+#>
 function bgRed {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -48,6 +78,12 @@ function bgRed {
 }
 Export-ModuleMember -Function bgRed
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to bright red, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBrightRed "Hello, world!"
+#>
 function bgBrightRed {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -57,6 +93,12 @@ function bgBrightRed {
 }
 Export-ModuleMember -Function bgBrightRed
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to magenta, followed by any arguments passed to the function.
+.EXAMPLE
+    bgMagenta "Hello, world!"
+#>
 function bgMagenta {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -66,6 +108,12 @@ function bgMagenta {
 }
 Export-ModuleMember -Function bgMagenta
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to bright magenta, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBrightMagenta "Hello, world!"
+#>
 function bgBrightMagenta {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -75,6 +123,12 @@ function bgBrightMagenta {
 }
 Export-ModuleMember -Function bgBrightMagenta
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to blue, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBlue "Hello, world!"
+#>
 function bgBlue {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -84,6 +138,12 @@ function bgBlue {
 }
 Export-ModuleMember -Function bgBlue
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to bright blue, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBrightBlue "Hello, world!"
+#>
 function bgBrightBlue {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -93,6 +153,12 @@ function bgBrightBlue {
 }
 Export-ModuleMember -Function bgBrightBlue
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to cyan, followed by any arguments passed to the function.
+.EXAMPLE
+    bgCyan "Hello, world!"
+#>
 function bgCyan {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -102,6 +168,12 @@ function bgCyan {
 }
 Export-ModuleMember -Function bgCyan
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to bright cyan, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBrightCyan "Hello, world!"
+#>
 function bgBrightCyan {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -111,6 +183,12 @@ function bgBrightCyan {
 }
 Export-ModuleMember -Function bgBrightCyan
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to green, followed by any arguments passed to the function.
+.EXAMPLE
+    bgGreen "Hello, world!"
+#>
 function bgGreen {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -120,6 +198,12 @@ function bgGreen {
 }
 Export-ModuleMember -Function bgGreen
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to bright green, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBrightGreen "Hello, world!"
+#>
 function bgBrightGreen {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -129,6 +213,12 @@ function bgBrightGreen {
 }
 Export-ModuleMember -Function bgBrightGreen
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to yellow, followed by any arguments passed to the function.
+.EXAMPLE
+    bgYellow "Hello, world!"
+#>
 function bgYellow {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -138,6 +228,12 @@ function bgYellow {
 }
 Export-ModuleMember -Function bgYellow
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to bright yellow, followed by any arguments passed to the function.
+.EXAMPLE
+    bgBrightYellow "Hello, world!"
+#>
 function bgBrightYellow {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -147,6 +243,12 @@ function bgBrightYellow {
 }
 Export-ModuleMember -Function bgBrightYellow
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for resetting the terminal colors, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtReset "Hello, world!"
+#>
 function fgBlack {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -156,6 +258,12 @@ function fgBlack {
 }
 Export-ModuleMember -Function fgBlack
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to bright black, followed by any arguments passed to the function.
+.EXAMPLE
+    fgBrightBlack "Hello, world!"
+#>
 function fgBrightBlack {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -165,6 +273,12 @@ function fgBrightBlack {
 }
 Export-ModuleMember -Function fgBrightBlack
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to white, followed by any arguments passed to the function.
+.EXAMPLE
+    fgWhite "Hello, world!"
+#>
 function fgWhite {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -174,6 +288,12 @@ function fgWhite {
 }
 Export-ModuleMember -Function fgWhite
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to bright white, followed by any arguments passed to the function.
+.EXAMPLE
+    fgBrightWhite "Hello, world!"
+#>
 function fgBrightWhite {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -183,6 +303,12 @@ function fgBrightWhite {
 }
 Export-ModuleMember -Function fgBrightWhite
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to red, followed by any arguments passed to the function.
+.EXAMPLE
+    fgRed "Hello, world!"
+#>
 function fgRed {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -192,6 +318,12 @@ function fgRed {
 }
 Export-ModuleMember -Function fgRed
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to bright red, followed by any arguments passed to the function.
+.EXAMPLE
+    fgBrightRed "Hello, world!"
+#>
 function fgBrightRed {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -201,6 +333,12 @@ function fgBrightRed {
 }
 Export-ModuleMember -Function fgBrightRed
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to magenta, followed by any arguments passed to the function.
+.EXAMPLE
+    fgMagenta "Hello, world!"
+#>
 function fgMagenta {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -210,6 +348,12 @@ function fgMagenta {
 }
 Export-ModuleMember -Function fgMagenta
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to bright magenta, followed by any arguments passed to the function.
+.EXAMPLE
+    fgBrightMagenta "Hello, world!"
+#>
 function fgBrightMagenta {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -219,6 +363,12 @@ function fgBrightMagenta {
 }
 Export-ModuleMember -Function fgBrightMagenta
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to blue, followed by any arguments passed to the function.
+.EXAMPLE
+    fgBlue "Hello, world!"
+#>
 function fgBlue {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -228,6 +378,12 @@ function fgBlue {
 }
 Export-ModuleMember -Function fgBlue
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to bright blue, followed by any arguments passed to the function.
+.EXAMPLE
+    fgBrightBlue "Hello, world!"
+#>
 function fgBrightBlue {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -237,6 +393,12 @@ function fgBrightBlue {
 }
 Export-ModuleMember -Function fgBrightBlue
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to cyan, followed by any arguments passed to the function.
+.EXAMPLE
+    fgCyan "Hello, world!"
+#>
 function fgCyan {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -246,6 +408,12 @@ function fgCyan {
 }
 Export-ModuleMember -Function fgCyan
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to bright cyan, followed by any arguments passed to the function.
+.EXAMPLE
+    fgBrightCyan "Hello, world!"
+#>
 function fgBrightCyan {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -255,6 +423,12 @@ function fgBrightCyan {
 }
 Export-ModuleMember -Function fgBrightCyan
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to green, followed by any arguments passed to the function.
+.EXAMPLE
+    fgGreen "Hello, world!"
+#>
 function fgGreen {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -264,6 +438,12 @@ function fgGreen {
 }
 Export-ModuleMember -Function fgGreen
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to bright green, followed by any arguments passed to the function.
+.EXAMPLE
+    fgBrightGreen "Hello, world!"
+#>
 function fgBrightGreen {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -273,6 +453,12 @@ function fgBrightGreen {
 }
 Export-ModuleMember -Function fgBrightGreen
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to yellow, followed by any arguments passed to the function.
+.EXAMPLE
+    fgYellow "Hello, world!"
+#>
 function fgYellow {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -282,6 +468,12 @@ function fgYellow {
 }
 Export-ModuleMember -Function fgYellow
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to bright yellow, followed by any arguments passed to the function.
+.EXAMPLE
+    fgBrightYellow "Hello, world!"
+#>
 function fgBrightYellow {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -291,6 +483,12 @@ function fgBrightYellow {
 }
 Export-ModuleMember -Function fgBrightYellow
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for resetting the terminal colors and character display characteristics, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtReset "Hello, world!"
+#>
 function fmtReset {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -300,6 +498,12 @@ function fmtReset {
 }
 Export-ModuleMember -Function fmtReset
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to blink, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtBlink "Hello, world!"
+#>
 function fmtBlink {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -309,6 +513,12 @@ function fmtBlink {
 }
 Export-ModuleMember -Function fmtBlink
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to stop blinking, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtBlinkOff "Hello, world!"
+#>
 function fmtBlinkOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -318,6 +528,12 @@ function fmtBlinkOff {
 }
 Export-ModuleMember -Function fmtBlinkOff
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to be bolded, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtBold "Hello, world!"
+#>
 function fmtBold {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -327,6 +543,12 @@ function fmtBold {
 }
 Export-ModuleMember -Function fmtBold
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to not be bolded, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtBoldOff "Hello, world!"
+#>
 function fmtBoldOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -336,6 +558,12 @@ function fmtBoldOff {
 }
 Export-ModuleMember -Function fmtBoldOff
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to be hidden, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtHidden "Hello, world!"
+#>
 function fmtHidden {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -345,6 +573,12 @@ function fmtHidden {
 }
 Export-ModuleMember -Function fmtHidden
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to not be hidden, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtHiddenOff "Hello, world!"
+#>
 function fmtHiddenOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -354,6 +588,12 @@ function fmtHiddenOff {
 }
 Export-ModuleMember -Function fmtHiddenOff
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to be color-reversed, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtReverse "Hello, world!"
+#>
 function fmtReverse {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -363,6 +603,12 @@ function fmtReverse {
 }
 Export-ModuleMember -Function fmtReverse
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to not be color-reversed, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtReverseOff "Hello, world!"
+#>
 function fmtReverseOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -372,6 +618,12 @@ function fmtReverseOff {
 }
 Export-ModuleMember -Function fmtReverseOff
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to be italicized, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtItalic "Hello, world!"
+#>
 function fmtItalic {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -381,6 +633,12 @@ function fmtItalic {
 }
 Export-ModuleMember -Function fmtItalic
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to not be italicized, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtItalicOff "Hello, world!"
+#>
 function fmtItalicOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -390,6 +648,12 @@ function fmtItalicOff {
 }
 Export-ModuleMember -Function fmtItalicOff
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to be underlined, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtUnderline "Hello, world!"
+#>
 function fmtUnderline {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -399,6 +663,12 @@ function fmtUnderline {
 }
 Export-ModuleMember -Function fmtUnderline
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to not be underlined, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtUnderlineOff "Hello, world!"
+#>
 function fmtUnderlineOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -408,6 +678,12 @@ function fmtUnderlineOff {
 }
 Export-ModuleMember -Function fmtUnderlineOff
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to be strikethrough, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtStrikethrough "Hello, world!"
+#>
 function fmtStrikethrough {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -417,6 +693,12 @@ function fmtStrikethrough {
 }
 Export-ModuleMember -Function fmtStrikethrough
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the text to not be strikethrough, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtStrikethroughOff "Hello, world!"
+#>
 function fmtStrikethroughOff {
     param(
         [Parameter(Mandatory = $false, Position = 0, ValueFromRemainingArguments = $true)]
@@ -426,6 +708,12 @@ function fmtStrikethroughOff {
 }
 Export-ModuleMember -Function fmtStrikethroughOff
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to the specified RGB color, followed by any arguments passed to the function.
+.EXAMPLE
+    fgRGB 255 0 0 "Hello, world!"
+#>
 function fgRGB {
     param(
         [Parameter(Mandatory = $true, Position = 0, ParameterSetName = "ComponentsSplit")]
@@ -454,6 +742,12 @@ function fgRGB {
 }
 Export-ModuleMember -Function fgRGB
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to the specified RGB color, followed by any arguments passed to the function.
+.EXAMPLE
+    bgRGB 255 0 0 "Hello, world!"
+#>
 function bgRGB {
     param(
         [Parameter(Mandatory = $true, Position = 0, ParameterSetName = "ComponentsSplit")]
@@ -482,6 +776,12 @@ function bgRGB {
 }
 Export-ModuleMember -Function bgRGB
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to the named color, followed by any arguments passed to the function.
+.EXAMPLE
+    fgColor Red "Hello, world!"
+#>
 function fgColor {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -495,6 +795,12 @@ function fgColor {
 }
 Export-ModuleMember -Function fgColor
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to the named color, followed by any arguments passed to the function.
+.EXAMPLE
+    bgColor Red "Hello, world!"
+#>
 function bgColor {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -508,6 +814,12 @@ function bgColor {
 }
 Export-ModuleMember -Function bgColor
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for formatting a hyperlink, followed by any arguments passed to the function.
+.EXAMPLE
+    fmtHyperlink "https://example.com" "Hello, link!"
+#>
 function fmtHyperlink {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -523,6 +835,12 @@ function fmtHyperlink {
 }
 Export-ModuleMember -Function fmtHyperlink
 
+<#
+.SYNOPSIS
+    Converts the given HSL color to RGB with components of the specified type.
+.EXAMPLE
+    ConvertTo-RGB -HSL 0 100 50 -AsBytes
+#>
 function ConvertTo-RGB {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -610,6 +928,12 @@ function ConvertTo-RGB {
 }
 Export-ModuleMember -Function ConvertTo-RGB
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the background color to the specified HSL color, followed by any arguments passed to the function.
+.EXAMPLE
+    bgHSL 0 100 50 "Hello, world!"
+#>
 function bgHSL {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -631,6 +955,12 @@ function bgHSL {
 }
 Export-ModuleMember -Function bgHSL
 
+<#
+.SYNOPSIS
+    Gets a string with the terminal sequence for setting the foreground color to the specified HSL color, followed by any arguments passed to the function.
+.EXAMPLE
+    fgHSL 0 100 50 "Hello, world!"
+#>
 function fgHSL {
     param(
         [Parameter(Mandatory = $true, Position = 0)]
